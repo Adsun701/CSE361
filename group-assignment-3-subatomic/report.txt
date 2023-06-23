@@ -1,0 +1,17 @@
+Q1. What is the name of the attack that is possible when user-input is used
+    directly in SQL queries without any sanitization or other countermeasures?
+Answer: The name of the attack that is possible when user-input is used
+    directly in SQL queries without any sanitization or other countermeasures is called
+    SQL Injection.
+
+Q2. Abusing this vulnerability, provide the username and password
+    that an attacker can use to login as any user, without knowing
+    that user’s password. (You can find the login-related query in login.php)
+Answer: Given a username $user, the username and password can use to login
+as $user are "' or uname='$user" and "' or '".
+
+Q3. What does fail2ban do? How does it interact with iptables?
+Answer: fail2ban is a tool used to reject SSH connections with too many connection failures.
+fail2ban integrates with the Linux firewall iptables and can add/remove its own rules to the ruleset. 
+It can add a rule to the INPUT policy to send SSH traffic to its own chain, 
+which will have a rule to reject connections from a banned ip.

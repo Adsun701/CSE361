@@ -1,0 +1,8 @@
+Q1. What do you observe after posting HTML?
+Answer: After posting HTML, the “tweet” contains the HTML as if it was rendered on a webpage, including formatting.
+
+Q2. What do you observe after posting the JavaScript alert box?
+Answer: After posting the JavaScript alert box, when I go back to the profile, it runs the alert box as if it were a script being run.
+
+Q3. What is the name of the vulnerability you have uncovered?
+Answer: The name of the vulnerability is persistent server-side cross-site scripting.
